@@ -1,0 +1,43 @@
+{
+  "name": "@hexlet/nodejs-package",
+  "version": "0.0.3",
+  "description": "Node.js boilerplate package",
+  "bin": {
+    "nodejs-package": "bin/nodejs-package.js"
+  },
+  "simple-git-hooks": {
+    "pre-push": "make lint"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "npx jest --bail"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hexlet-boilerplates/nodejs-package.git"
+  },
+  "author": "Kirill Mokevnin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hexlet-boilerplates/nodejs-package/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/hexlet-boilerplates/nodejs-package#readme",
+  "dependencies": {
+    "debug": "^4.3.3",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@jest/globals": "^27.5.1",
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^26.1.0",
+    "jest": "^27.5.1",
+    "jest-cli": "^27.5.1",
+    "npm-check-updates": "^12.3.0",
+    "simple-git-hooks": "^2.7.0"
+  }
+}
