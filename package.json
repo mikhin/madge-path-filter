@@ -1,9 +1,9 @@
 {
-  "name": "@hexlet/nodejs-package",
-  "version": "0.0.3",
-  "description": "Node.js boilerplate package",
+  "name": "madge-path-filter",
+  "version": "0.0.1",
+  "description": "Dependency filter for madge. Finds all paths from the entry point to the given module.",
   "bin": {
-    "nodejs-package": "bin/nodejs-package.js"
+    "nodejs-package": "bin/madge-path-filter.js"
   },
   "simple-git-hooks": {
     "pre-push": "make lint"
@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hexlet-boilerplates/nodejs-package.git"
+    "url": "git+https://github.com/mikhin/madge-path-filter.git"
   },
-  "author": "Kirill Mokevnin",
+  "author": "Yuri Mikhin",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/hexlet-boilerplates/nodejs-package/issues"
+    "url": "https://github.com/mikhin/madge-path-filter/issues"
   },
   "type": "module",
-  "homepage": "https://github.com/hexlet-boilerplates/nodejs-package#readme",
+  "homepage": "https://github.com/mikhin/madge-path-filter#readme",
   "dependencies": {
     "debug": "^4.3.3",
     "lodash": "^4.17.21"
