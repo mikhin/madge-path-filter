@@ -25,19 +25,11 @@
   },
   "type": "module",
   "homepage": "https://github.com/mikhin/madge-path-filter#readme",
-  "dependencies": {
-    "debug": "^4.3.3",
-    "lodash": "^4.17.21"
-  },
   "devDependencies": {
-    "@jest/globals": "^27.5.1",
-    "eslint": "^8.8.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-jest": "^26.1.0",
-    "jest": "^27.5.1",
-    "jest-cli": "^27.5.1",
-    "npm-check-updates": "^12.3.0",
-    "simple-git-hooks": "^2.7.0"
+    "eslint": "8.8.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-jest": "26.1.0",
+    "jest": "27.5.1"
   }
 }
