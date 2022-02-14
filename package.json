@@ -33,6 +33,7 @@
     "jest": "27.5.1"
   },
   "dependencies": {
+    "deepdash": "5.3.9",
     "get-stdin": "9.0.0"
   }
 }
