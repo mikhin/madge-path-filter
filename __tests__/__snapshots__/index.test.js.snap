@@ -1,0 +1,1549 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Creating list from tree 1`] = `
+Object {
+  "App.jsx": Array [
+    "components/Auth/index.jsx",
+    "components/Modal/index.jsx",
+    "config/routes.js",
+    "contexts/index.js",
+    "hooks/useAuth.js",
+    "pages/Main/index.jsx",
+    "pages/Settings/index.jsx",
+    "services/api.js",
+    "store/index.jsx",
+    "styles/global.scss",
+    "styles/themes/swedish-family/root.css",
+  ],
+  "assets/benefits/movie.svg": Array [],
+  "assets/benefits/music.svg": Array [],
+  "assets/benefits/price.svg": Array [],
+  "assets/benefits/taxi.svg": Array [],
+  "components/Auth/index.jsx": Array [
+    "config/routes.js",
+    "hooks/useAuth.js",
+  ],
+  "components/ChildAccountCard/index.jsx": Array [
+    "components/ChildAccountCard/style.scss",
+    "constants/Settings.js",
+    "hooks/useAuth.js",
+    "store/modalSlice.js",
+    "ui/Card/index.jsx",
+  ],
+  "components/ChildAccountCard/style.scss": Array [],
+  "components/Footer/index.jsx": Array [
+    "components/Footer/style.scss",
+    "config/navConfig.js",
+  ],
+  "components/Footer/style.scss": Array [],
+  "components/Header/atoms/Logo/index.jsx": Array [
+    "components/Header/atoms/Logo/style.scss",
+  ],
+  "components/Header/atoms/Logo/style.scss": Array [],
+  "components/Header/atoms/Nav/index.jsx": Array [
+    "components/Header/atoms/Nav/style.scss",
+    "config/navConfig.js",
+  ],
+  "components/Header/atoms/Nav/style.scss": Array [],
+  "components/Header/atoms/User/index.jsx": Array [
+    "components/Header/atoms/User/style.scss",
+  ],
+  "components/Header/atoms/User/style.scss": Array [],
+  "components/Header/index.jsx": Array [
+    "components/Header/atoms/Logo/index.jsx",
+    "components/Header/atoms/Nav/index.jsx",
+    "components/Header/atoms/User/index.jsx",
+    "components/Header/style.scss",
+    "config/navConfig.js",
+  ],
+  "components/Header/style.scss": Array [],
+  "components/Layout/index.jsx": Array [
+    "components/Footer/index.jsx",
+    "components/Header/index.jsx",
+    "components/Layout/style.scss",
+  ],
+  "components/Layout/style.scss": Array [],
+  "components/MasterAccountCard/index.jsx": Array [
+    "components/MasterAccountCard/style.scss",
+    "ui/Card/index.jsx",
+  ],
+  "components/MasterAccountCard/style.scss": Array [],
+  "components/Modal/InvitingContactModal/index.jsx": Array [
+    "components/Modal/InvitingContactModal/style.scss",
+    "store/modalSlice.js",
+    "ui/Modal/index.jsx",
+  ],
+  "components/Modal/InvitingContactModal/style.scss": Array [],
+  "components/Modal/InvitingModal/atoms/TextInput/index.jsx": Array [],
+  "components/Modal/InvitingModal/index.jsx": Array [
+    "components/Modal/InvitingModal/atoms/TextInput/index.jsx",
+    "components/Modal/InvitingModal/style.scss",
+    "hooks/useApi.js",
+    "lib/toast.js",
+    "store/modalSlice.js",
+    "store/slotsSlice.js",
+    "ui/Button/index.jsx",
+    "ui/Modal/index.jsx",
+  ],
+  "components/Modal/InvitingModal/style.scss": Array [],
+  "components/Modal/InvitingRecommendationsModal/index.jsx": Array [
+    "components/Modal/InvitingRecommendationsModal/style.scss",
+    "hooks/useApi.js",
+    "hooks/useAuth.js",
+    "lib/toast.js",
+    "store/modalSlice.js",
+    "store/recommendationsSlice.js",
+    "store/slotsSlice.js",
+    "ui/Modal/index.jsx",
+  ],
+  "components/Modal/InvitingRecommendationsModal/style.scss": Array [],
+  "components/Modal/RemovalConfirmationModal/index.jsx": Array [
+    "components/Modal/RemovalConfirmationModal/style.scss",
+    "hooks/useApi.js",
+    "hooks/useAuth.js",
+    "store/modalSlice.js",
+    "store/slotsSlice.js",
+    "ui/Modal/index.jsx",
+  ],
+  "components/Modal/RemovalConfirmationModal/style.scss": Array [],
+  "components/Modal/index.jsx": Array [
+    "components/Modal/InvitingContactModal/index.jsx",
+    "components/Modal/InvitingModal/index.jsx",
+    "components/Modal/InvitingRecommendationsModal/index.jsx",
+    "components/Modal/RemovalConfirmationModal/index.jsx",
+    "ui/Modal/index.jsx",
+  ],
+  "components/Recommendations/atoms/Card/close-cross.svg": Array [],
+  "components/Recommendations/atoms/Card/index.jsx": Array [
+    "components/Recommendations/atoms/Card/close-cross.svg",
+    "components/Recommendations/atoms/Card/style.scss",
+    "ui/Button/index.jsx",
+    "ui/UserPic/index.jsx",
+  ],
+  "components/Recommendations/atoms/Card/style.scss": Array [],
+  "components/Recommendations/index.jsx": Array [
+    "components/Recommendations/atoms/Card/index.jsx",
+    "components/Recommendations/style.scss",
+    "constants/index.js",
+    "hooks/useAuth.js",
+    "store/modalSlice.js",
+    "store/recommendationsSlice.js",
+    "store/selectors.js",
+    "store/slotsSlice.js",
+    "store/userSlice.js",
+    "ui/Button/index.jsx",
+  ],
+  "components/Recommendations/style.scss": Array [],
+  "components/SubscriptionBenefit/index.jsx": Array [
+    "assets/benefits/movie.svg",
+    "assets/benefits/music.svg",
+    "assets/benefits/price.svg",
+    "assets/benefits/taxi.svg",
+    "components/SubscriptionBenefit/index.scss",
+  ],
+  "components/SubscriptionBenefit/index.scss": Array [],
+  "config/navConfig.js": Array [
+    "config/routes.js",
+  ],
+  "config/routes.js": Array [],
+  "constants/Settings.js": Array [],
+  "constants/index.js": Array [],
+  "contexts/index.js": Array [],
+  "helpers/pluralize.js": Array [],
+  "hooks/useApi.js": Array [
+    "contexts/index.js",
+  ],
+  "hooks/useAuth.js": Array [
+    "contexts/index.js",
+  ],
+  "hooks/useTitle.js": Array [],
+  "lib/toast.js": Array [],
+  "pages/Main/index.jsx": Array [
+    "hooks/useTitle.js",
+  ],
+  "pages/Settings/index.jsx": Array [
+    "components/ChildAccountCard/index.jsx",
+    "components/Layout/index.jsx",
+    "components/MasterAccountCard/index.jsx",
+    "components/Recommendations/index.jsx",
+    "components/SubscriptionBenefit/index.jsx",
+    "constants/Settings.js",
+    "constants/index.js",
+    "helpers/pluralize.js",
+    "hooks/useAuth.js",
+    "pages/Settings/style.scss",
+    "store/initializationSlice.js",
+  ],
+  "pages/Settings/style.scss": Array [],
+  "services/api.js": Array [
+    "config/routes.js",
+  ],
+  "store/index.jsx": Array [
+    "hooks/useApi.js",
+    "store/initializationSlice.js",
+    "store/modalSlice.js",
+    "store/recommendationsSlice.js",
+    "store/slotsSlice.js",
+    "store/userSlice.js",
+  ],
+  "store/initializationSlice.js": Array [
+    "constants/index.js",
+    "lib/toast.js",
+  ],
+  "store/modalSlice.js": Array [
+    "store/slotsSlice.js",
+  ],
+  "store/recommendationsSlice.js": Array [
+    "lib/toast.js",
+  ],
+  "store/selectors.js": Array [
+    "store/recommendationsSlice.js",
+  ],
+  "store/slotsSlice.js": Array [
+    "constants/Settings.js",
+    "lib/toast.js",
+    "store/initializationSlice.js",
+  ],
+  "store/userSlice.js": Array [
+    "constants/index.js",
+    "lib/toast.js",
+    "store/initializationSlice.js",
+  ],
+  "styles/global.scss": Array [],
+  "styles/themes/swedish-family/root.css": Array [],
+  "ui/Button/_border/Button_pin_rounded.jsx": Array [
+    "ui/Button/_border/Button_pin_rounded.scss",
+  ],
+  "ui/Button/_border/Button_pin_rounded.scss": Array [],
+  "ui/Button/_view/Button_view_plus.jsx": Array [
+    "ui/Button/_view/Button_view_plus.scss",
+  ],
+  "ui/Button/_view/Button_view_plus.scss": Array [],
+  "ui/Button/index.jsx": Array [
+    "ui/Button/_border/Button_pin_rounded.jsx",
+    "ui/Button/_view/Button_view_plus.jsx",
+  ],
+  "ui/Card/index.jsx": Array [
+    "ui/Button/index.jsx",
+    "ui/UserPic/index.jsx",
+  ],
+  "ui/Modal/close-cross.svg": Array [],
+  "ui/Modal/index.jsx": Array [
+    "store/modalSlice.js",
+    "ui/Modal/close-cross.svg",
+    "ui/Modal/style.scss",
+  ],
+  "ui/Modal/style.scss": Array [],
+  "ui/UserPic/_size/UserPic_size_l.jsx": Array [
+    "ui/UserPic/_size/UserPic_size_l.scss",
+  ],
+  "ui/UserPic/_size/UserPic_size_l.scss": Array [],
+  "ui/UserPic/_size/UserPic_size_xl.jsx": Array [
+    "ui/UserPic/_size/UserPic_size_xl.scss",
+  ],
+  "ui/UserPic/_size/UserPic_size_xl.scss": Array [],
+  "ui/UserPic/index.jsx": Array [
+    "ui/UserPic/_size/UserPic_size_l.jsx",
+    "ui/UserPic/_size/UserPic_size_xl.jsx",
+  ],
+}
+`;
+
+exports[`Creating tree from list 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "name": "config/routes.js",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": "contexts/index.js",
+            },
+          ],
+          "name": "hooks/useAuth.js",
+        },
+      ],
+      "name": "components/Auth/index.jsx",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": "components/Modal/InvitingContactModal/style.scss",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "constants/Settings.js",
+                    },
+                    Object {
+                      "children": Array [],
+                      "name": "lib/toast.js",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "constants/index.js",
+                        },
+                        Object {
+                          "children": Array [],
+                          "name": "lib/toast.js",
+                        },
+                      ],
+                      "name": "store/initializationSlice.js",
+                    },
+                  ],
+                  "name": "store/slotsSlice.js",
+                },
+              ],
+              "name": "store/modalSlice.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "constants/Settings.js",
+                        },
+                        Object {
+                          "children": Array [],
+                          "name": "lib/toast.js",
+                        },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "children": Array [],
+                              "name": "constants/index.js",
+                            },
+                            Object {
+                              "children": Array [],
+                              "name": "lib/toast.js",
+                            },
+                          ],
+                          "name": "store/initializationSlice.js",
+                        },
+                      ],
+                      "name": "store/slotsSlice.js",
+                    },
+                  ],
+                  "name": "store/modalSlice.js",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "ui/Modal/close-cross.svg",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "ui/Modal/style.scss",
+                },
+              ],
+              "name": "ui/Modal/index.jsx",
+            },
+          ],
+          "name": "components/Modal/InvitingContactModal/index.jsx",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": "components/Modal/InvitingModal/atoms/TextInput/index.jsx",
+            },
+            Object {
+              "children": Array [],
+              "name": "components/Modal/InvitingModal/style.scss",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "contexts/index.js",
+                },
+              ],
+              "name": "hooks/useApi.js",
+            },
+            Object {
+              "children": Array [],
+              "name": "lib/toast.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "constants/Settings.js",
+                    },
+                    Object {
+                      "children": Array [],
+                      "name": "lib/toast.js",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "constants/index.js",
+                        },
+                        Object {
+                          "children": Array [],
+                          "name": "lib/toast.js",
+                        },
+                      ],
+                      "name": "store/initializationSlice.js",
+                    },
+                  ],
+                  "name": "store/slotsSlice.js",
+                },
+              ],
+              "name": "store/modalSlice.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "constants/Settings.js",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "lib/toast.js",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "constants/index.js",
+                    },
+                    Object {
+                      "children": Array [],
+                      "name": "lib/toast.js",
+                    },
+                  ],
+                  "name": "store/initializationSlice.js",
+                },
+              ],
+              "name": "store/slotsSlice.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "ui/Button/_border/Button_pin_rounded.scss",
+                    },
+                  ],
+                  "name": "ui/Button/_border/Button_pin_rounded.jsx",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "ui/Button/_view/Button_view_plus.scss",
+                    },
+                  ],
+                  "name": "ui/Button/_view/Button_view_plus.jsx",
+                },
+              ],
+              "name": "ui/Button/index.jsx",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "constants/Settings.js",
+                        },
+                        Object {
+                          "children": Array [],
+                          "name": "lib/toast.js",
+                        },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "children": Array [],
+                              "name": "constants/index.js",
+                            },
+                            Object {
+                              "children": Array [],
+                              "name": "lib/toast.js",
+                            },
+                          ],
+                          "name": "store/initializationSlice.js",
+                        },
+                      ],
+                      "name": "store/slotsSlice.js",
+                    },
+                  ],
+                  "name": "store/modalSlice.js",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "ui/Modal/close-cross.svg",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "ui/Modal/style.scss",
+                },
+              ],
+              "name": "ui/Modal/index.jsx",
+            },
+          ],
+          "name": "components/Modal/InvitingModal/index.jsx",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": "components/Modal/InvitingRecommendationsModal/style.scss",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "contexts/index.js",
+                },
+              ],
+              "name": "hooks/useApi.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "contexts/index.js",
+                },
+              ],
+              "name": "hooks/useAuth.js",
+            },
+            Object {
+              "children": Array [],
+              "name": "lib/toast.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "constants/Settings.js",
+                    },
+                    Object {
+                      "children": Array [],
+                      "name": "lib/toast.js",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "constants/index.js",
+                        },
+                        Object {
+                          "children": Array [],
+                          "name": "lib/toast.js",
+                        },
+                      ],
+                      "name": "store/initializationSlice.js",
+                    },
+                  ],
+                  "name": "store/slotsSlice.js",
+                },
+              ],
+              "name": "store/modalSlice.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "lib/toast.js",
+                },
+              ],
+              "name": "store/recommendationsSlice.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "constants/Settings.js",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "lib/toast.js",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "constants/index.js",
+                    },
+                    Object {
+                      "children": Array [],
+                      "name": "lib/toast.js",
+                    },
+                  ],
+                  "name": "store/initializationSlice.js",
+                },
+              ],
+              "name": "store/slotsSlice.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "constants/Settings.js",
+                        },
+                        Object {
+                          "children": Array [],
+                          "name": "lib/toast.js",
+                        },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "children": Array [],
+                              "name": "constants/index.js",
+                            },
+                            Object {
+                              "children": Array [],
+                              "name": "lib/toast.js",
+                            },
+                          ],
+                          "name": "store/initializationSlice.js",
+                        },
+                      ],
+                      "name": "store/slotsSlice.js",
+                    },
+                  ],
+                  "name": "store/modalSlice.js",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "ui/Modal/close-cross.svg",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "ui/Modal/style.scss",
+                },
+              ],
+              "name": "ui/Modal/index.jsx",
+            },
+          ],
+          "name": "components/Modal/InvitingRecommendationsModal/index.jsx",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": "components/Modal/RemovalConfirmationModal/style.scss",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "contexts/index.js",
+                },
+              ],
+              "name": "hooks/useApi.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "contexts/index.js",
+                },
+              ],
+              "name": "hooks/useAuth.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "constants/Settings.js",
+                    },
+                    Object {
+                      "children": Array [],
+                      "name": "lib/toast.js",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "constants/index.js",
+                        },
+                        Object {
+                          "children": Array [],
+                          "name": "lib/toast.js",
+                        },
+                      ],
+                      "name": "store/initializationSlice.js",
+                    },
+                  ],
+                  "name": "store/slotsSlice.js",
+                },
+              ],
+              "name": "store/modalSlice.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "constants/Settings.js",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "lib/toast.js",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "constants/index.js",
+                    },
+                    Object {
+                      "children": Array [],
+                      "name": "lib/toast.js",
+                    },
+                  ],
+                  "name": "store/initializationSlice.js",
+                },
+              ],
+              "name": "store/slotsSlice.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "constants/Settings.js",
+                        },
+                        Object {
+                          "children": Array [],
+                          "name": "lib/toast.js",
+                        },
+                        Object {
+                          "children": Array [
+                            Object {
+                              "children": Array [],
+                              "name": "constants/index.js",
+                            },
+                            Object {
+                              "children": Array [],
+                              "name": "lib/toast.js",
+                            },
+                          ],
+                          "name": "store/initializationSlice.js",
+                        },
+                      ],
+                      "name": "store/slotsSlice.js",
+                    },
+                  ],
+                  "name": "store/modalSlice.js",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "ui/Modal/close-cross.svg",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "ui/Modal/style.scss",
+                },
+              ],
+              "name": "ui/Modal/index.jsx",
+            },
+          ],
+          "name": "components/Modal/RemovalConfirmationModal/index.jsx",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "constants/Settings.js",
+                    },
+                    Object {
+                      "children": Array [],
+                      "name": "lib/toast.js",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "constants/index.js",
+                        },
+                        Object {
+                          "children": Array [],
+                          "name": "lib/toast.js",
+                        },
+                      ],
+                      "name": "store/initializationSlice.js",
+                    },
+                  ],
+                  "name": "store/slotsSlice.js",
+                },
+              ],
+              "name": "store/modalSlice.js",
+            },
+            Object {
+              "children": Array [],
+              "name": "ui/Modal/close-cross.svg",
+            },
+            Object {
+              "children": Array [],
+              "name": "ui/Modal/style.scss",
+            },
+          ],
+          "name": "ui/Modal/index.jsx",
+        },
+      ],
+      "name": "components/Modal/index.jsx",
+    },
+    Object {
+      "children": Array [],
+      "name": "config/routes.js",
+    },
+    Object {
+      "children": Array [],
+      "name": "contexts/index.js",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "name": "contexts/index.js",
+        },
+      ],
+      "name": "hooks/useAuth.js",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "name": "hooks/useTitle.js",
+        },
+      ],
+      "name": "pages/Main/index.jsx",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": "components/ChildAccountCard/style.scss",
+            },
+            Object {
+              "children": Array [],
+              "name": "constants/Settings.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "contexts/index.js",
+                },
+              ],
+              "name": "hooks/useAuth.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "constants/Settings.js",
+                    },
+                    Object {
+                      "children": Array [],
+                      "name": "lib/toast.js",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "constants/index.js",
+                        },
+                        Object {
+                          "children": Array [],
+                          "name": "lib/toast.js",
+                        },
+                      ],
+                      "name": "store/initializationSlice.js",
+                    },
+                  ],
+                  "name": "store/slotsSlice.js",
+                },
+              ],
+              "name": "store/modalSlice.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "ui/Button/_border/Button_pin_rounded.scss",
+                        },
+                      ],
+                      "name": "ui/Button/_border/Button_pin_rounded.jsx",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "ui/Button/_view/Button_view_plus.scss",
+                        },
+                      ],
+                      "name": "ui/Button/_view/Button_view_plus.jsx",
+                    },
+                  ],
+                  "name": "ui/Button/index.jsx",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "ui/UserPic/_size/UserPic_size_l.scss",
+                        },
+                      ],
+                      "name": "ui/UserPic/_size/UserPic_size_l.jsx",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "ui/UserPic/_size/UserPic_size_xl.scss",
+                        },
+                      ],
+                      "name": "ui/UserPic/_size/UserPic_size_xl.jsx",
+                    },
+                  ],
+                  "name": "ui/UserPic/index.jsx",
+                },
+              ],
+              "name": "ui/Card/index.jsx",
+            },
+          ],
+          "name": "components/ChildAccountCard/index.jsx",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "components/Footer/style.scss",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "config/routes.js",
+                    },
+                  ],
+                  "name": "config/navConfig.js",
+                },
+              ],
+              "name": "components/Footer/index.jsx",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "components/Header/atoms/Logo/style.scss",
+                    },
+                  ],
+                  "name": "components/Header/atoms/Logo/index.jsx",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "components/Header/atoms/Nav/style.scss",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "config/routes.js",
+                        },
+                      ],
+                      "name": "config/navConfig.js",
+                    },
+                  ],
+                  "name": "components/Header/atoms/Nav/index.jsx",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "components/Header/atoms/User/style.scss",
+                    },
+                  ],
+                  "name": "components/Header/atoms/User/index.jsx",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "components/Header/style.scss",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "config/routes.js",
+                    },
+                  ],
+                  "name": "config/navConfig.js",
+                },
+              ],
+              "name": "components/Header/index.jsx",
+            },
+            Object {
+              "children": Array [],
+              "name": "components/Layout/style.scss",
+            },
+          ],
+          "name": "components/Layout/index.jsx",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": "components/MasterAccountCard/style.scss",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "ui/Button/_border/Button_pin_rounded.scss",
+                        },
+                      ],
+                      "name": "ui/Button/_border/Button_pin_rounded.jsx",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "ui/Button/_view/Button_view_plus.scss",
+                        },
+                      ],
+                      "name": "ui/Button/_view/Button_view_plus.jsx",
+                    },
+                  ],
+                  "name": "ui/Button/index.jsx",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "ui/UserPic/_size/UserPic_size_l.scss",
+                        },
+                      ],
+                      "name": "ui/UserPic/_size/UserPic_size_l.jsx",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "ui/UserPic/_size/UserPic_size_xl.scss",
+                        },
+                      ],
+                      "name": "ui/UserPic/_size/UserPic_size_xl.jsx",
+                    },
+                  ],
+                  "name": "ui/UserPic/index.jsx",
+                },
+              ],
+              "name": "ui/Card/index.jsx",
+            },
+          ],
+          "name": "components/MasterAccountCard/index.jsx",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "components/Recommendations/atoms/Card/close-cross.svg",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "components/Recommendations/atoms/Card/style.scss",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "ui/Button/_border/Button_pin_rounded.scss",
+                        },
+                      ],
+                      "name": "ui/Button/_border/Button_pin_rounded.jsx",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "ui/Button/_view/Button_view_plus.scss",
+                        },
+                      ],
+                      "name": "ui/Button/_view/Button_view_plus.jsx",
+                    },
+                  ],
+                  "name": "ui/Button/index.jsx",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "ui/UserPic/_size/UserPic_size_l.scss",
+                        },
+                      ],
+                      "name": "ui/UserPic/_size/UserPic_size_l.jsx",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "ui/UserPic/_size/UserPic_size_xl.scss",
+                        },
+                      ],
+                      "name": "ui/UserPic/_size/UserPic_size_xl.jsx",
+                    },
+                  ],
+                  "name": "ui/UserPic/index.jsx",
+                },
+              ],
+              "name": "components/Recommendations/atoms/Card/index.jsx",
+            },
+            Object {
+              "children": Array [],
+              "name": "components/Recommendations/style.scss",
+            },
+            Object {
+              "children": Array [],
+              "name": "constants/index.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "contexts/index.js",
+                },
+              ],
+              "name": "hooks/useAuth.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "constants/Settings.js",
+                    },
+                    Object {
+                      "children": Array [],
+                      "name": "lib/toast.js",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [],
+                          "name": "constants/index.js",
+                        },
+                        Object {
+                          "children": Array [],
+                          "name": "lib/toast.js",
+                        },
+                      ],
+                      "name": "store/initializationSlice.js",
+                    },
+                  ],
+                  "name": "store/slotsSlice.js",
+                },
+              ],
+              "name": "store/modalSlice.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "lib/toast.js",
+                },
+              ],
+              "name": "store/recommendationsSlice.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "lib/toast.js",
+                    },
+                  ],
+                  "name": "store/recommendationsSlice.js",
+                },
+              ],
+              "name": "store/selectors.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "constants/Settings.js",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "lib/toast.js",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "constants/index.js",
+                    },
+                    Object {
+                      "children": Array [],
+                      "name": "lib/toast.js",
+                    },
+                  ],
+                  "name": "store/initializationSlice.js",
+                },
+              ],
+              "name": "store/slotsSlice.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "constants/index.js",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "lib/toast.js",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "constants/index.js",
+                    },
+                    Object {
+                      "children": Array [],
+                      "name": "lib/toast.js",
+                    },
+                  ],
+                  "name": "store/initializationSlice.js",
+                },
+              ],
+              "name": "store/userSlice.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "ui/Button/_border/Button_pin_rounded.scss",
+                    },
+                  ],
+                  "name": "ui/Button/_border/Button_pin_rounded.jsx",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "ui/Button/_view/Button_view_plus.scss",
+                    },
+                  ],
+                  "name": "ui/Button/_view/Button_view_plus.jsx",
+                },
+              ],
+              "name": "ui/Button/index.jsx",
+            },
+          ],
+          "name": "components/Recommendations/index.jsx",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": "assets/benefits/movie.svg",
+            },
+            Object {
+              "children": Array [],
+              "name": "assets/benefits/music.svg",
+            },
+            Object {
+              "children": Array [],
+              "name": "assets/benefits/price.svg",
+            },
+            Object {
+              "children": Array [],
+              "name": "assets/benefits/taxi.svg",
+            },
+            Object {
+              "children": Array [],
+              "name": "components/SubscriptionBenefit/index.scss",
+            },
+          ],
+          "name": "components/SubscriptionBenefit/index.jsx",
+        },
+        Object {
+          "children": Array [],
+          "name": "constants/Settings.js",
+        },
+        Object {
+          "children": Array [],
+          "name": "constants/index.js",
+        },
+        Object {
+          "children": Array [],
+          "name": "helpers/pluralize.js",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": "contexts/index.js",
+            },
+          ],
+          "name": "hooks/useAuth.js",
+        },
+        Object {
+          "children": Array [],
+          "name": "pages/Settings/style.scss",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": "constants/index.js",
+            },
+            Object {
+              "children": Array [],
+              "name": "lib/toast.js",
+            },
+          ],
+          "name": "store/initializationSlice.js",
+        },
+      ],
+      "name": "pages/Settings/index.jsx",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [],
+          "name": "config/routes.js",
+        },
+      ],
+      "name": "services/api.js",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": "contexts/index.js",
+            },
+          ],
+          "name": "hooks/useApi.js",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": "constants/index.js",
+            },
+            Object {
+              "children": Array [],
+              "name": "lib/toast.js",
+            },
+          ],
+          "name": "store/initializationSlice.js",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "constants/Settings.js",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "lib/toast.js",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "children": Array [],
+                      "name": "constants/index.js",
+                    },
+                    Object {
+                      "children": Array [],
+                      "name": "lib/toast.js",
+                    },
+                  ],
+                  "name": "store/initializationSlice.js",
+                },
+              ],
+              "name": "store/slotsSlice.js",
+            },
+          ],
+          "name": "store/modalSlice.js",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": "lib/toast.js",
+            },
+          ],
+          "name": "store/recommendationsSlice.js",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": "constants/Settings.js",
+            },
+            Object {
+              "children": Array [],
+              "name": "lib/toast.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "constants/index.js",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "lib/toast.js",
+                },
+              ],
+              "name": "store/initializationSlice.js",
+            },
+          ],
+          "name": "store/slotsSlice.js",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [],
+              "name": "constants/index.js",
+            },
+            Object {
+              "children": Array [],
+              "name": "lib/toast.js",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [],
+                  "name": "constants/index.js",
+                },
+                Object {
+                  "children": Array [],
+                  "name": "lib/toast.js",
+                },
+              ],
+              "name": "store/initializationSlice.js",
+            },
+          ],
+          "name": "store/userSlice.js",
+        },
+      ],
+      "name": "store/index.jsx",
+    },
+    Object {
+      "children": Array [],
+      "name": "styles/global.scss",
+    },
+    Object {
+      "children": Array [],
+      "name": "styles/themes/swedish-family/root.css",
+    },
+  ],
+  "name": "App.jsx",
+}
+`;
+
+exports[`Filtering tree by input component 1`] = `
+Object {
+  "App.jsx": Array [
+    "components/Auth/index.jsx",
+    "components/Modal/index.jsx",
+    "hooks/useAuth.js",
+    "pages/Settings/index.jsx",
+  ],
+  "components/Auth/index.jsx": Array [
+    "hooks/useAuth.js",
+  ],
+  "components/ChildAccountCard/index.jsx": Array [
+    "hooks/useAuth.js",
+  ],
+  "components/Modal/InvitingRecommendationsModal/index.jsx": Array [
+    "hooks/useAuth.js",
+  ],
+  "components/Modal/RemovalConfirmationModal/index.jsx": Array [
+    "hooks/useAuth.js",
+  ],
+  "components/Modal/index.jsx": Array [
+    "components/Modal/InvitingRecommendationsModal/index.jsx",
+    "components/Modal/RemovalConfirmationModal/index.jsx",
+  ],
+  "components/Recommendations/index.jsx": Array [
+    "hooks/useAuth.js",
+  ],
+  "hooks/useAuth.js": Array [],
+  "pages/Settings/index.jsx": Array [
+    "components/ChildAccountCard/index.jsx",
+    "components/Recommendations/index.jsx",
+    "hooks/useAuth.js",
+  ],
+}
+`;

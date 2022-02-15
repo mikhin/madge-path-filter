@@ -2,8 +2,9 @@
   "name": "madge-path-filter",
   "version": "0.0.1",
   "description": "Dependency filter for madge. Finds all paths from the entry point to the given module.",
+  "main": "./src/index.js",
   "bin": {
-    "nodejs-package": "bin/madge-path-filter.js"
+    "madge-path-filter": "bin/madge-path-filter.js"
   },
   "simple-git-hooks": {
     "pre-push": "make lint"

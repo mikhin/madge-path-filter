@@ -1,7 +1,4 @@
-run:
-	bin/madge-path-filter.js 10
-
-install-deps:
+install:
 	npm ci
 
 test:
